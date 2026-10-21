@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background-color: #0e0600;
+    color: aliceblue;
+}
+
+.header {
+    background-color: rgb(14, 6, 0);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+    min-height: 70px;
+    border-bottom: 1px solid #363636;
+}
+
+.logo-link {
+    text-decoration: none;
+    color: white;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.header ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.header a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    transition: opacity 0.2s;
+}
+
+.header a:hover {
+    opacity: 0.8;
+}
+
+.container {
+    background-color: rgb(14, 6, 0);
+    color: aliceblue;
+    padding: 50px 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin: 30px 0 20px;
+    font-weight: 700;
+}
+
+.intro-text {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.reasons-list {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    padding-left: 20px;
+    margin-bottom: 40px;
+}
+
+.reasons-list li {
+    margin-bottom: 12px;
+}
+
+.photoAlbum {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+.photoAlbum img {
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+}
+
+.Name{
+    display: flex;
+    justify-content: center;
+}
+
+.bdocks{
+    display: flex;
+    justify-content: center;
+    padding: 35px;
+    margin: 50px;
+}
+
+.blackCalculator{
+    background-color: rgb(39, 38, 38);
+    width: 350px;
+    height: 500px;
+    margin-right: 30px;
+    flex-shrink: 0;
+    border-radius: 15px;
+}
+
+.blueBlock{
+    height: 250px;
+    width: 300px;
+    margin: 25px;
+    border-radius: 15px;
+}
+
+.blueBlockImg{
+    height: 250px;
+    width: 300px;
+    border-radius: 15px;
+}
+.blackCalculator h1{
+    display: flex;
+    justify-content: center;
+}
+.blackCalculator h2{
+    padding: 15px;
+}
+.description{
+    display: flex;
+    justify-content: center;
+}
+.Why{
+    display: flex;
+    justify-content: center;
+}
+.slider-container{
+    width: 100%;
+    max-width: 1200px;
+    padding: 24px;
+    text-align: center;
+}
+.slider-wrapper{
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.nav-btn{
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 36px;
+    cursor: pointer;
+    width: 56px;
+    height: 56px;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    -webkit-appearance: none;
+    appearance: none;
+    transition: opacity 0.2s;
+    border-radius: 50%;
+}
+.nav-btn:hover{
+    opacity: 0.8;
+}
+.nav-btn:active{
+    opacity: 0.6;
+}
+.slider-view{
+    overflow: hidden;
+    flex: 1;
+}
+.slider-content{
+    display: flex;
+    transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+.card{
+    width: 250px;
+    height: 350px;
+    margin-right: 16px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+.card:last-child{
+    margin-right: 0;
+}
+.card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.feedbackContainer h1{
+    display: flex;
+    justify-content: center;
+}
+.feedbackContainer h2{
+    padding: 15px;
+}
+.whiteBlock{
+    background-color: #0e0600;
+    padding: 15px;
+    width: 500px;
+    height: 270px;
+    margin-bottom: 50px;
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+.feedbackContainer{
+    margin: 50px auto;
+    box-shadow: 0 0 20px rgba(184, 5, 5, 1);
+    border-radius: 15px;
+}
+.button{
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+    font-size: 15px;
+    background-color: #0e0600;
+    color: #ffffff;
+}
+.button:hover{
+    -webkit-box-shadow: 0px 0px 63px 2px rgba(231, 0, 0, 0.5);
+    -moz-box-shadow: 0px 0px 63px 2px rgba(231, 0, 0, 0.5);
+    box-shadow: 0px 0px 63px 2px rgba(231, 0, 0, 0.5);
+}
+.fieldWater{
+    margin-right: 1500px;
+}

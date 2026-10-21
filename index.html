@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Elder Scrolls V: Skyrim</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo-link">
+            <div class="logo">The Elder Scrolls V: Skyrim</div>
+        </a>
+        <nav>
+            <ul>
+                <li><a href="#play">Об игре!!!</a></li>
+                <li><a href="#opisanie">Описание</a></li>
+                <li><a href="#skachat">Скачать игру</a></li>
+            </ul>   
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1 class="Name">The Elder Scrolls V: Skyrim</h1>
+        <div class="bdocks">
+            <div class="blackCalculator">
+                <div class="blueBlock">
+                    <img src="./photo/skyrim-logo.jpg" alt="" class="blueBlockImg">
+                </div>
+                <h1>Давакин</h1>
+                <h2>Ты можеш создать таковаже давакина или создать сваево.</h2>
+            </div>
+            <div class="blackCalculator">
+                <div class="blueBlock">
+                    <img src="./photo/unnamed.jpg" alt="" class="blueBlockImg">
+                </div>
+                <h1>Городок</h1>
+                <h2>Это город из The Elder Scrolls V: Skyrim его название Маркарт.</h2>
+            </div>
+            <div class="blackCalculator">
+                <div class="blueBlock">
+                    <img src="./photo/Dragonborn_Cover_Art.jpg" alt="" class="blueBlockImg">
+                </div>
+                <h1>Dragonborn</h1>
+                <h2>Это один из самых сильных врагов. Ты должен будеш его убитью</h2>
+            </div>
+        </div>
+        <h1 class="Name">Скриншоты из игры.</h1>
+        <div class="slider-container">
+            <div class="slider-wrapper">
+                <button class="nav-btn prev-btn">&lt;</button>
+                <div class="slider-view">
+                    <div class="slider-content" id="sliderContent">
+                        <div class="card"><img src="./photo/01.jpg" alt=""></div>
+                        <div class="card"><img src="./photo/233c4257c9a319cf_original.jpg" alt=""></div>
+                        <div class="card"><img src="./photo/45875_original.jpg" alt=""></div>
+                        <div class="card"><img src="./photo/989ab653-8c56-430c-bf48-71f51b230c6a.jpg" alt=""></div>
+                        <div class="card"><img src="./photo/banner-bg-2.jpg" alt=""></div>
+                        <div class="card"><img src="./photo/capsule_616x353.jpg" alt=""></div>
+                        <div class="card"><img src="./photo/elder-scroll-5-skyrim-special-edition-treyler_video_29369.jpg" alt=""></div>
+                        <div class="card"><img src="./photo/skyrim-12th-anniversary-12-reasons-to-keep-playing-1-1920x1080-e7af17c8750a.jpg" alt=""></div>
+                        <div class="card"><img src="./photo/the-most-haunted-places-in-all-of-skyrim-1920x1080-88756d001ca7.jpg" alt=""></div>
+                        <div class="card"><img src="./photo/The_Elder_Scrolls_V_-_Skyrim.jpg" alt=""></div>
+                        <div class="card"><img src="./photo/the_elder_scrolls_v_skyrim.jpg" alt=""></div>
+                    </div>
+                </div>
+                <button class="nav-btn next-btn">&gt;</button>
+            </div>
+        </div>
+        <h1 class="description">Описание игры</h1>
+        <p class="intro-text">
+            The Elder Scrolls V: Skyrim — масштабная фэнтези RPG от Bethesda,<br>
+            действие которой разворачивается в одноименной провинции Тамриэля через 200 лет после событий Oblivion,<br>
+            где вы, будучи Драконорожденным (Довакином), должны спасти мир от возвращения драконов и могущественного Алдуина,<br>
+            исследуя огромный открытый мир с уникальной системой развития навыков без классов.
+        </p>
+
+        <h1 class="Why">Почему стоит играть?</h1>
+        <ul class="reasons-list">
+            <li>Огромного, живого фэнтезийного мира для исследования!</li>
+            <li>Глубокой свободы выбора персонажа и стиля игры.</li>
+            <li>Незабываемой атмосферы скандинавского фэнтези и захватывающих приключений!</li>
+            <li>А также благодаря бесконечной реиграбельности и поддержке модов, которые добавляют новые квесты и контент, даже спустя годы после выхода.</li>
+        </ul>
+        <div class="feedbackContainer">
+            <h1>Регистратор</h1>
+            <h2>Хотите стать нашим работником?</h2>
+            <div class="whiteBlock">
+                <form action="" id="feedbackForm">
+                    <label class="fieldWater">
+                        ФИО: <input type="text" name="name" required>
+                    </label><br>
+
+                    <label class="fieldWater">
+                        Email: <input type="email" name="email" required>
+                    </label><br>
+
+                    <label class="fieldWater">
+                        Номер телефона: <input type="tel" name="phone" required>
+                    </label><br>
+
+                    <label class="fieldWater">
+                        Сообщение: <textarea name="message"></textarea>
+                    </label><br>
+                    
+                </form>
+                    <button type="submit" class="button">Отправить</button>
+            </div>
+        </div>
+            <div id="responseMessage"></div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
